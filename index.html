@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(232, 240, 240);
+            border: 5px solid rgb(52, 207, 88);
+            height: 196px;
+            width: 584px;
+            margin: auto;
+            margin-top: 10%;
+            position: relative;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .data{
+            background-color: cyan;
+            border: 5px solid red;
+            width: 400px;
+            height: 100px;
+            position: relative;
+            display: flex;
+        }
+        .btn-con{
+            margin: 10px;
+            padding: auto;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Hey I'am password generator</h3>
+        <div id="showPass" class="data">
+            
+        </div>
+        <div class="btn-con">
+            <button class="superstrongPass" id="superstrongPass">superstrongPass</button>
+            <button class="strongPass" id="strongPass">strongPass</button>
+            <button class="weekPass" id="weekPass">weekPass</button>
+            <button class="funnyPass" id="funnyPass">funnyPass</button>
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
